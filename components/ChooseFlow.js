@@ -6,13 +6,13 @@ const ChooseFlow = ({ onChoice }) => (
         <FormRadio
             name="chooseFlow"
             value="hide"
-            label="Create a secret image for Another Doctor with password"
+            label="Create a secret image for Person B with password"
             onChange={onChoice}
         />
         <FormRadio
             name="chooseFlow"
             value="find"
-            label="Retrieve the information & files from an image which is sent by another doctor"
+            label="Retrieve the information & files from an image which is sent by Person A"
             onChange={onChoice}
         />
     </fieldset>
